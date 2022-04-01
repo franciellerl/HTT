@@ -8,3 +8,6 @@
 
 * [Tabuada e Cadastro](https://github.com/franciellerl/High-Tech-Talents-01/tree/main/%2302%20Fun%C3%A7%C3%B5es) (#02 Funções)
   * Prazo: 31/03/2022.  
+
+* [Herança de Meios de Transporte](https://github.com/franciellerl/High-Tech-Talents-01/tree/main/%2303%20Heran%C3%A7a) (#03 Herança)
+  * Prazo: 07/04/2022.
