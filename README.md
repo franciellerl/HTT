@@ -11,3 +11,6 @@
 
 * [Herança de Meios de Transporte](https://github.com/franciellerl/High-Tech-Talents-01/tree/main/%2303%20Heran%C3%A7a) (#03 Herança)
   * Prazo: 07/04/2022.
+
+* [Diagrama lógico e físico](https://github.com/franciellerl/High-Tech-Talents-01/tree/main/%2304%20Diagramas) (#04 Diagramas)
+  * Prazo: 07/04/2022.
