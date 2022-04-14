@@ -14,3 +14,6 @@
 
 * [Diagrama lógico e físico](https://github.com/franciellerl/High-Tech-Talents-01/tree/main/%2304%20Diagramas) (#04 Diagramas)
   * Prazo: 07/04/2022.
+
+* [Tutorial de SQLAlchemy](https://github.com/franciellerl/High-Tech-Talents-01/tree/main/%2305%20SQLAlchemy) (#05 SQLAlchemy)
+  * Prazo: 14/04/2022.
