@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>HTT - Francielle</title>
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename="base.css") }}"/> 
+   </head>
+   <body>
+      <h3>CRUD IMOBILIÁRIO</h3>
+      <hr/>
+
+      <h3>Editar inquilino</h3>
+      <hr/>
+
+      <h1><form action = "{{ request.path }}" method = "post">
+         <label for = "lougradouro">Lougradouro</label><br>
+         <input type = "text" name = "lougradouro" placeholder = "ex: Lougradouro" /><br>
+         <label for = "cep">CEP</label><br>
+         <input type = "text" name = "cep" placeholder = "ex: CEP" /><br>
+         <label for = "bairro">Bairro</label><br>
+         <input type = "text" name = "bairro" placeholder = "ex: Bairro" /><br>
+         <label for = "cidade">Cidade</label><br>
+         <input type = "text" name = "cidade" placeholder = "ex: Cidade" /><br>
+         <input id="botaozinho" type = "submit" value = "Enviar" />
+      </form></h1>
+   </body>
+</html>

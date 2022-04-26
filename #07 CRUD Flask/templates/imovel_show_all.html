@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "en">
+   <head>
+      <title>HTT - Francielle</title>
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename="base.css") }}"/> 
+   </head>
+   <body>
+      <h3>CRUD IMOBILIÁRIO</h3>
+      <hr/>
+		
+      <h3><a id="botaozinho" href = "{{ url_for('imovel_new') }}">Adicione Imóvel</a></h3>
+      
+      <table>
+         <thead>
+            <tr>
+               <th>Lougradouro</th>
+               <th>CEP</th>
+               <th>Bairro</th>
+               <th>Cidade</th>
+            </tr>
+         </thead>
+
+         <tbody>
+            {% for imoveis in imovel %}
+               <tr>
+                  <td>{{ imoveis.lougradouro }}</td>
+                  <td>{{ imoveis.cep }}</td>
+                  <td>{{ imoveis.bairro }}</td>
+                  <td>{{ imoveis.cidade }}</td>
+                  <td class="text-right">
+                    <div class="row">
+                        <form action="{{ url_for('imovel_delete') }}" method="post" class="pull-right">
+                            <input type="hidden" name="id" value="{{ imoveis.id }}">
+                            <input id="botaozinho" type="submit" class="btn btn-danger" value="Deletar">
+                        </form>
+                    </div>
+                </td>
+                <td class="text-right">
+                  <div class="row">
+                      <form action="{{ url_for('imovel_update', id=imoveis.id) }}" class="pull-right">
+                          <input id="botaozinho" type="submit" class="btn btn-danger" value="Editar">
+                      </form>
+                  </div>
+               </td>
+               </tr>
+               {% endfor %}
+         </tbody>
+      </table>
+   </body>
+</html>

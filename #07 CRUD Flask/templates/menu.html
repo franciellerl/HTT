@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>HTT - Francielle</title>
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename="base.css") }}"/> 
+   </head>
+
+   <body>
+
+            <h3>CRUD IMOBILIÁRIO</h3><hr/><br>
+               <h3>
+               <ol><a id="botao" href="{{ url_for('inquilino_show_all') }}">Inquilinos</a></ol><br>
+               <ol><a id="botao" href="{{ url_for('proprietario_show_all') }}">Proprietários</a></ol><br>
+               <ol><a id="botao" href="{{ url_for('imovel_show_all') }}">Imóveis</a></ol><br>
+               <ol><a id="botao" href="{{ url_for('aluguel_show_all') }}">Aluguéis</a><br>
+               </h3>
+
+   </body>
+</html>

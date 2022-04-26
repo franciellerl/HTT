@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#botao{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    width: 250px;
+    font-size: 16px;
+}
+
+#botaozinho{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    width: 150px;
+    font-size: 16px;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+th{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
