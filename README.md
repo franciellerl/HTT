@@ -17,3 +17,9 @@
 
 * [Tutorial de SQLAlchemy](https://github.com/franciellerl/High-Tech-Talents-01/tree/main/%2305%20SQLAlchemy) (#05 SQLAlchemy)
   * Prazo: 14/04/2022.
+
+* [Projeto Final: versão para console](https://github.com/franciellerl/High-Tech-Talents-01/tree/main/%2306%20CRUD%20Console) (#06 CRUD Console)
+  * Prazo: 26/04/2022.
+
+* [Projeto Final: versão com flask](https://github.com/franciellerl/High-Tech-Talents-01/tree/main/%2307%20CRUD%20Flask) (#07 CRUD Flask)
+  * Prazo: 26/04/2022. 
