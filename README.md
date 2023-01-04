@@ -1,5 +1,5 @@
-# High Tech Talents
- Exercícios para High Tech Talents.
+# HTT
+ Exercícios.
  
 ## Lista
 
