@@ -1,3 +1,6 @@
+[![Português](https://img.shields.io/badge/lang-PT--BR-green)](README.md)
+[![English](https://img.shields.io/badge/lang-EN-white)](README.en.md)
+
 # Programa High Tech Talents
 Exercícios feitos para obter a Capacitação em Python do programa High Tech Talents, promovido pela Share People Hub. O repositório reúne atividades práticas desenvolvidas durante o curso, abordando conceitos fundamentais de Python e resolução de problemas com programação.
  
